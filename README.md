@@ -1,16 +1,12 @@
-# snapchatclone
+# Snap Chat clone
 
-A new Flutter project.
+A personal flutter project I am building, a clone of snap chat interface
 
-## Getting Started
+![Snapchat UI](https://github.com/Williamtobs/SnapChat_Clone/blob/master/res/Action-Bar_2-1200x675.jpeg)
+Image taken from https://vernonchan.com/snapchat-major-ui-revamp-overhaul/
 
-This project is a starting point for a Flutter application.
+## Tools Used
+- Flutter
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Will keep updating this ReadMe through building process
