@@ -42,22 +42,43 @@ class _Routes extends State<Routes> {
                         color: Colors
                             .yellow))), // sets the inactive color of the `BottomNavigationBar`
             child: BottomNavigationBar(
-                selectedItemColor: Colors.blue,
+                // selectedItemColor: Colors.blue,
                 unselectedItemColor: Colors.white,
                 currentIndex: _selectedIndex,
-                iconSize: 30,
+                iconSize: 35,
                 onTap: _onItemTapped,
                 items: const <BottomNavigationBarItem>[
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.location_on_outlined), label: ''),
+                      activeIcon: Icon(
+                        Icons.location_on_outlined,
+                        color: Colors.green,
+                      ),
+                      icon: Icon(Icons.location_on_outlined),
+                      label: ''),
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.mark_chat_unread_outlined), label: ''),
+                      activeIcon: Icon(Icons.mark_chat_unread_outlined,
+                          color: Colors.blue),
+                      icon: Icon(Icons.mark_chat_unread_outlined),
+                      label: ''),
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.camera_alt_outlined), label: ''),
+                      activeIcon: Icon(
+                        Icons.camera_alt_outlined,
+                        color: Colors.yellow,
+                      ),
+                      icon: Icon(Icons.camera_alt_outlined),
+                      label: ''),
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.people_outline), label: ''),
+                      activeIcon:
+                          Icon(Icons.people_outline, color: Colors.purple),
+                      icon: Icon(Icons.people_outline),
+                      label: ''),
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.play_arrow_outlined), label: ''),
+                      activeIcon: Icon(
+                        Icons.play_arrow_outlined,
+                        color: Colors.red,
+                      ),
+                      icon: Icon(Icons.play_arrow_outlined),
+                      label: ''),
                 ])));
   }
 }
