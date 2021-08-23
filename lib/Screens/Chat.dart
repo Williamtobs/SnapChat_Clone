@@ -42,9 +42,7 @@ class _Chat extends State<Chat> {
                             fit: BoxFit.fill,
                             height: 60,
                             width: 60,
-                            image: AssetImage(
-                              entry.value.toString(),
-                            ))),
+                            image: AssetImage(entry.value.toString()))),
                     title: Text(
                       entry.key,
                       style:
@@ -58,13 +56,13 @@ class _Chat extends State<Chat> {
                           margin: EdgeInsets.only(right: 5),
                           height: 15,
                           width: 17,
-                          color: Colors.red,
+                          color: col[entry.key],
                         ),
                         Container(
                             margin: EdgeInsets.only(right: 5),
                             child: Text(
                               "New Snap",
-                              style: TextStyle(color: Colors.red),
+                              style: TextStyle(color: col[entry.key]),
                             )),
                         Text("3m")
                       ],
