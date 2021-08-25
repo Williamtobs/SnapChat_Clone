@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'FriendsPage.dart';
+import 'StoriesPage.dart';
 import 'Location.dart';
 import 'Play.dart';
 import 'Camera.dart';

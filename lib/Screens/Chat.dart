@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:snapchatclone/Constant/friends.dart';
+import 'package:snapchatclone/Constant/models.dart';
 import 'package:snapchatclone/Widgets/appbar.dart';
 // import 'package:snapchatclone/Widgets/ListTiles.dart';
 
